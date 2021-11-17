@@ -1,0 +1,56 @@
+
+
+
+/**{
+	text-align: center;
+}*/
+article {
+	background-color: tomato;
+	color: white;
+}
+#vip{
+	background-color: aqua;
+}
+
+.center{
+	text-align: center;
+}
+
+.blue{
+	background-color: blue;
+}
+
+section a[href="http://www.kitm.lt"]{
+	color: red;
+}
+
+a[href$=".docx"]{
+	color: green;
+}
+a[href$=".xlsx"]{
+	color: grey;
+}
+a[href$=".pdf"]{
+	color: red;
+}
+article a{
+	color: red;
+}
+article a:hover{
+	color: aqua;
+}
+.listas ul li:last-child{
+	background-color: blue;
+}
+.listas ul li:first-child{
+	color: pink;
+}
+.listas ul li:nth-child(2){
+	color: yellow;
+}
+.services ul>li{
+	color: red;
+}
+.services ul>li>ul>li {
+	color: blue;
+}
